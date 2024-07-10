@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9950106b1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--  -----------------------------------header  ---------------------------- -->
+    <div id="header">
+       
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="h1"><span>A</span>SHIK</h1>
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills-bar">Skills</a></li>
+                
+                <li><a href="#services">Services</a></li>
+                
+                <li><a href="#portfolio">Portfolio</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+
+                
+            </ul>
+
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="headertext">
+            <p>Frontend Developer </p>
+            <h1>Hi, I'm  <span>Mohamed Ashik</span>
+                <br> From India </h1>
+        </div>
+        <img  class="header-img"   src="images/Untitled design (3).png" width="400px">
+
+        </div>
+        
+    </div>
+
+    <!-- --------about--------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG-20230704-WA0008.jpg" height="400px" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>As a passionate front-end developer, I thrive on crafting pixel-perfect user interfaces that blend aesthetics with functionality. With a keen eye for detail and a deep understanding of modern web technologies, I strive to create seamless and engaging digital experiences.</p>
+                   <p style="margin-top: 10px;"> My expertise lies in HTML5, CSS3, JavaScript, and popular front-end frameworks like Reactjs. I take pride in writing clean, modular, and efficient code that adheres to best practices and industry standards. Whether it's building responsive layouts, implementing dynamic interactivity, or optimizing performance, I have the skills to deliver high-quality, user-centric solutions.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experiance</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                   
+                   </div>
+
+                   <div class="tab-contents active-skills" id="skills">
+                    <ul>
+                        <li><span>Frontend Development</span><br>Web App Development</li>
+                        <li><span>Responsive Design</span><br>Developing a web design that approach to make web pages render well on all screen sizes and resolutions while ensuring good usability.  </li>
+                        <li><span>User Experience Design</span><br>Developing a user freindly web design</li>
+
+                  <ul>
+                   </div>
+
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Front End  Developer intern at <span>Emiglitz technologies</span></li>
+                        <li><span>Entry Level Developer</span><br> currently iam working with self project .i had done 7+ Self Projects  </li>
+                        <li><span>Seeking For Opportunities</span><br>As an entry-level front-end developer, I am eager to embark on my professional journey and contribute my skills to an organization that values innovation and excellence. With a solid foundation in HTML, CSS, JavaScript, and popular front-end frameworks, I am well-equipped to tackle the challenges of building responsive and interactive user interface</li>
+
+                    </ul>
+                   </div>
+
+
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> (B.E)2020-2024</span><br>BE Computer Science And Engineering at Noorul Islam Centre For Higher Education</li>
+                        <li><span>SSLC-2017</span><br>Meenakshi Matric And  Higher Secondary School  </li>
+                        <li><span>HSC</span><br>Little Flower Matric And Higher Secondary School  </li>
+
+                    </ul>
+                   </div>
+
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------skills section------ -->
+  <div id="skills-bar">
+    <div class="skill-section"   >
+        <h1>My Skills </h1>
+        <div class="skills-area">
+            <div class="skill">
+                <div class="skill-title">HTML</div>
+                    <div class="skill-bar"></div>
+                        <div class="html skill-fill">
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    
+                
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">CSS</div>
+                    <div class="skill-bar"></div>
+                        <div class="css skill-fill">
+                            <span class="skill-percent">85%</span>
+                        </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">JavaScript</div>
+                    <div class="skill-bar"></div>
+                        <div class="js skill-fill">
+                            <span class="skill-percent">70%</span>
+                        </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-title">React Js</div>
+                    <div class="skill-bar"></div>
+                        <div class="reactjs skill-fill">
+                            <span class="skill-percent">80%</span>
+                        </div>    
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">Responsive Design</div>
+                    <div class="skill-bar"></div>
+                        <div class="responsive skill-fill">
+                            <span class="skill-percent">90%</span>
+                        </div>    
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-title">Version control (Git)</div>
+                    <div class="skill-bar"></div>
+                        <div class="version skill-fill">
+                            <span class="skill-percent">70%</span>
+                        </div>    
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+    <!-------------------Services ---------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Developing a web app according to your business needs</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Responsive Design</h2>
+                    <p>Developing a web design that approach to make web pages render well on all screen sizes and resolutions while ensuring good usability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>User Experience Design</h2>
+                    <p>Developing a user freindly web design</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------portfolio------------------------------>
+
+    <div id="portfolio">
+        <div class="portfolio-container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talented people around the world .download it from play store</p>
+                        <a href="#"> <i class="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3> Food order web App</h3>
+                        <p>This app connects you to the talented people around the world .download it from play store</p>
+                        <a href="#"> <i class="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Gym Web App</h3>
+                        <p>This app connects you to the talented people around the world .download it from play store</p>
+                        <a href="#"> <i class="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#"  class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <!-------------------------------------------------contact------------------------------------------------------------------>
+
+    <div id="contact">
+        <div class="contact-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ashikbashirmse@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 6979112784</p>
+
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/mohamed-ashik-m-32b278231/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf"  class="btn btn2" download=""> download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter your Email" required>
+                        <textarea name="message" rows="6"  placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+<script src="script.js"> </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby9bll2vyEzfeQkyuqqp_-xhBqddkWMawlqhUfVQxPHLRC9enNXhiHCQbUVt39vqo0EXA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
